@@ -1,0 +1,93 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: #70A7A7;
+}
+
+body, html {
+    
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+p {
+  margin: 0 0 10px;  
+}
+
+.title {
+    max-width: 920px;
+}
+
+.container {
+    max-width: 920px;
+    text-align: center;
+    padding-left: 520px;
+    margin-top: 20px;
+
+}
+
+.Sub__container {
+    max-width: 920px;
+    width: 100%;
+    padding-left: 510px;
+
+
+}
+
+.Sub__title {
+    padding-top: 20px;
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+/*Button*/
+.btn {
+    margin-left: 63px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 100px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .1s linear, color .1s linear;
+
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #333;
+}
+.Back {
+    padding-top: 10px;
+    margin: 0 0 20px;
+    padding-left: 99px;
+}
+
+/*Button---------------2*/
+.btn__Back {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 80px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .1s linear, color .1s linear;
+
+}
+
+.btn__Back:hover {
+    background-color: #fff;
+    color: #333;
+}

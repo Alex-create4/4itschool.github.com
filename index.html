@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Кабинет Иформатики</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<header class="header"><!-- Интро приветствие -->
+        <div class="container">
+
+            <div class="header__inner">
+             	<div class="header__logo">
+                <img src="img/logo.png" alt="">
+                </div>
+                <nav class="nav">
+                <a class="nav__link" href="News.html">Новини</a>
+                <a class="nav__link" href="Help.html">Допомога</a>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    <div class="intro">
+    <div class="content">
+    	<div class="intro__inner">
+    	<h1 class="sub__title">Ласкаво просимо в кабінет)</h1>
+    		  <a class="btn btn--red" href="#About">Детальніше</a>
+    		  </div>
+    	</div>
+    </div>
+    <!-- Раздел о нас --------------------------------------------------------------------------------------------------------------->
+<div class="About__us">
+    <div id="About">
+    	<div class="About__container">
+    		<h1 class="About__nav">О кабинете</h1>
+    		
+    		<li class="About__text">1)- Допоможемо стати програмістом ті хто хоче)</li>
+    		<li class="About__text">2)- Тут ви зможете стати тестувальників сайту <a class="surch__text" href="">читати далі</a>.</li>
+    		<li class="About__text">3)- Якщо ви найшлі помилку на сайті <a class="surch__text" href="Help.html">повідомте нам</a>.</li>
+    		<!-- <li class="About__text">4)-</li> -->
+     	 	<!-- <li class="About__text">5)-</li> -->
+    		<!-- <li class="About__text">6)-</li> -->
+    		<!-- <li class="About__text">7)-</li> -->
+    		<!-- <li class="About__text">8)-</li> -->
+    		<!-- <li class="About__text">9)-</li> -->
+    	</div>
+    </div>
+</div><!-- Конец раздела о нас---------------------------------------------------------------------------------------------------- -->
+
+<!-- Начала роздела что такое информатика----------------------------------------------------------------------------------------- -->
+<div class="All__about__IT">
+	<div class="All__container">
+		<div class="All__text">
+			<p>1) Інформáтіка - наука про методи і процеси збору, зберігання, обробки, передачі, аналізу та оцінки інформації з застосуванням комп'ютерних технологій, що забезпечують можливість її використання для прийняття рішень.</p>
+			<p>2) Комп'ютерні науки (англ. Computer Science) - сукупність теоретичних і практичних знань, які використовують у своїй роботі фахівці в області обчислювальної техніки, програмування, інформаційних систем і технологій<a class=" next " href="https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0"> читати далі </a></p>
+		</div>
+	</div>
+</div>
+<!-- Конец раздела---------------------------------------------------------------------------------------------------------------- -->
+	<div class="end__container">
+
+		<div class="end__header">
+			<div class="end__text">
+
+				<h2 class="end__big-text">Контакт</h2>
+
+				<h2 class="end__big-text">Про сайт</h2>
+
+			</div>
+		</div>
+
+	</div>
+    <!-- Конец раздела -------------------------------------------------------------------------------------------------------------->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+   	<script type="text/javascript">
+	$(function(){
+	$('a[href^="#About"]').click(function(){
+	var target = $(this).attr('href');
+	$('html, body').animate({scrollTop: $(target).offset().top}, 1000);//800 - длительность скроллинга в мс
+	return false;
+	});
+	});
+</script>
+</body>
+</html>

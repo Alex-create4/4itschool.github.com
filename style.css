@@ -1,0 +1,309 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #70A7A7;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 1;
+}
+
+p {
+  margin: 0 0 10px;  
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;  
+    padding: 0 15px;
+}
+
+
+
+/* Header */
+.header{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; 
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    max-width: 1170px;
+    border-bottom: 1px solid #505369;
+
+}
+
+/* Nav */
+.nav{
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.nav__link {
+    margin-left: 30px;
+    color: #fff;
+    text-decoration: none;
+    opacity: .50;
+    
+    transition: opacity .2s linear;
+
+
+}
+
+.nav__link:first-child{
+    margin-left: 0;
+}
+
+.nav__link:hover{
+    opacity: 1;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 820px;
+    padding-top: 50px;
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 970px;
+    margin: auto;
+    
+    text-align: center;
+}
+
+.sub__title {
+    margin: 0 0 30px;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65px;
+    line-height: 1.1;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*Button*/
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 50px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .1s linear, color .1s linear;
+
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/*Раздел о нас ============================================================================================*/
+
+.About__us {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+
+.About__container {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px 15px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 100px;
+    
+    text-align: center;
+}
+
+.surch__text {
+   color: #808080;
+    text-decoration: none;
+    opacity: .50;
+    
+    transition: opacity .2s linear;
+}
+
+.surch__text:hover{
+    opacity: 1;
+}
+/*Конец раздела ============================================================================================*/
+
+/*Начало роздела всё о информатики===========================================================================*/
+
+.All__about__IT { 
+    width: 100%;
+    padding: 80px 80px;
+    background-color: #f0f0f0;
+}
+
+.next {
+    text-align: center;;
+    text-decoration: none;
+    color: #000;
+    opacity: .50;
+    
+    transition: opacity .2s linear;
+}
+
+.next:first-child {
+    margin-left: 0;
+}
+
+.next:hover {
+    opacity: 1;
+}
+
+.All__text {
+    font-size: 16px;
+
+}
+
+
+/*Конец раздела==============================================================================================*/
+
+/*Начало раздела===============================================================================================*/
+.end__container {
+    max-width: 920px;
+    width: 100%;  
+
+    background-color: #70A7A7; 
+}
+
+.end__header {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    
+    position: absolute;
+     
+}
+
+.end__text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    max-width: 1200px;
+}
+
+.end__big-text{
+    padding-top: 40px;
+    padding-bottom: 80px;
+    font-size: 20px;
+    font-weight: 700;
+     margin-left: 450px;
+    color: #fff;
+    text-decoration: none;
+}
+/*Конец раздела================================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
